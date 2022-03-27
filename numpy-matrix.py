@@ -1,0 +1,23 @@
+#B-11 Pruthviraj Patil
+from operator import xor
+import numpy as np
+x = np.matrix([[7, 2], [4, 5]])
+y = np.matrix([[1, 1], [3, 1]])
+print ("Addition of two matrices: ")
+print (np.add(x,y))
+print ("Subtraction of two matrices : ")
+print (np.subtract(x,y))
+print ("Matrix Division : ")
+print (np.divide(x,y))
+print ("Multiplication of two matrices: ")
+print (np.multiply(x,y))
+print ("The product of two matrices : ")
+print (np.dot(x,y))
+print ("square root is : ")
+print (np.sqrt(x))
+print ("The summation of elements : ")
+print (np.sum(y))
+print ("Matrix transposition : ")
+print (x.T)
+print("Rank of matrix 2:",np.linalg.matrix_rank(x))
+print("Determinant of matrix 2:",np.linalg.det(x)) 
